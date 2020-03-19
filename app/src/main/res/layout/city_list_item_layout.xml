@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewCityName"
+        android:text="تهران"
+        android:paddingRight="14dp"
+        android:fontFamily="@font/iransanslight"
+        android:paddingEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="12dp"
+        android:textColor="@color/gray"
+        android:drawableRight="@drawable/ic_location"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+    <View
+        android:id="@+id/viewDivider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_light"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

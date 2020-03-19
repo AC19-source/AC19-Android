@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">AC19</string>
+
+    <string name="enter_phone_number">موبایل خود را وارد کنید (مانند : 09123456789)</string>
+    <string name="birthday_date">سال تولد مثلا 1369</string>
+    <string name="sex">جنسیت</string>
+    <string name="wrong_phone">شماره موبایل اشتباه است</string>
+    <string name="signup">ثبت نام/ورود</string>
+    <string name="birth_date_error">تاریخ تولد را وارد کنید</string>
+    <string name="we_send_code">کد فعال سازی به شماره شما ارسال شد .آنرا وارد نمایید</string>
+    <string name="code">کد فعال سازی</string>
+    <string name="send">ارسال</string>
+    <string name="city">شهر </string>
+    <string name="city_error">شهر را وارد نمایید</string>
+    <string name="please_wait">لطفا صبر کنید</string>
+    <string name="cancel">انصراف</string>
+    <string name="verify">تایید کد ارسالی</string>
+    <string name="questions">وضعیت فعلی </string>
+    <string name="welcome">آیا من کرونا دارم؟\n آیا باید به بیمارستان مراجعه کنم؟\n
+در وضعیت همه‌گیری کرونا یکی از مشکلات اصلی، مراجعه بی‌مورد به مراکز درمانی است. چرا که هم باعث آلودگی جدید شده و هم امکان خدمت‌رسانی به افراد نیازمند را پایین می‌آور
+در عین حال ممکن است علایمی پیدا کنیم که به ابتلای کرونا شک داشته باشیم. در این صورت راهکار چیست؟
+
+این برنامه تلاش می‌کند با مطرح کردن چند پرسش پزشکی به یک تصمیم بالینی برسیم: آیا هم اکنون نیاز یه مراجعه به پزشک و مراکز درمانی دارم یا نه؟\n
+
+</string>
+    <string name="time_to_resend">زمان باقیمانده برای ارسال مجدد کد :</string>
+    <string name="resend_code">ارسال مجدد</string>
+    <string name="code_sent">کد مجددا ارسال شد</string>
+    <string name="coronaTest">تست سنجش احتمال ابتلا به کرونا</string>
+    <string name="notices">اطلاع رسانی</string>
+    <string name="news">اخبار</string>
+
+    <string name="name">نام</string>
+    <string name="nesbat">نسبت شما با شماره موبایل ثبت نام شده مثلا خودم</string>
+    <string name="result_send">\nبا تشکر از همکاری شما
+        ضمن درخواست جهت حفظ نکات ایمنی به اطلاع می رساند در اولین فرصت جهت راهنمایی با شما تماس میگیریم</string>
+    <string name="done">اتمام</string>
+    <string name="home">خانه</string>
+    <string name="test">تست های انجام شده</string>
+    <string name="update">به روزرسانی</string>
+    <string name="add_test">تست جدید</string>
+    <string name="no_network_error">از اتصال به اینترنت مطمئن شوید</string>
+    <string name="general_network_error">خطا در دریافت اطلاعات</string>
+    <string name="logout">خروج</string>
+    <string name="tutorial_text">برای اضافه کردن از این گزینه استفاده کنید </string>
+    <string name="about_us">درباره </string>
+    <string name="error_in_splash">خطا در دریافت اطلاعات.لطفا در صورت روشن بودن vpn ان را خاموش کنید برای تلاش مجدد کلیک کنید  </string>
+    <string name="retry">تلاش مجدد </string>
+    <string name="update_dialog_title">کاربر گرامی نسخه جدید AC19 هم اکنون قابل دریافت می باشد.</string>
+    <string name="later">بعدا</string>
+    <string name="medical_center">مراکز درمانی</string>
+    <string name="educations">آموزش ها</string>
+    <string name="test_desc">برای ورود اطلاعات برای تست جدید از این گزینه استفاده کنید</string>
+
+</resources>

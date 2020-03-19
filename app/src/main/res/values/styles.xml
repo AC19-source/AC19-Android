@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textColor">@color/dim_gray</item>
+
+    </style>
+
+    <style name="TextInputLayoutStyle2" parent="TextInputLayoutStyle">
+
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:scaleY">.75</item>
+        <item name="android:scaleX">.85</item>
+
+    </style>
+
+    <style name="iransanslight">
+        <item name="android:fontFamily">@font/iransanslight</item>
+        <item name="fontFamily">@font/iransanslight</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="iransansmedium">
+        <item name="android:fontFamily">@font/iransansmedium</item>
+        <item name="fontFamily">@font/iransansmedium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextViewTextStyle" parent="iransanslight">
+        <item name="android:textColor">@color/dim_gray</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+    <style name="AppTheme.WhiteAccent">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login_edit_texts_background"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:elevation="5dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:padding="10dp"
+        android:src="@drawable/profile"
+        android:layout_alignParentRight="true"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/image"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="علیرضا"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_gravity="right"
+            android:fontFamily="@font/iransanslight"/>
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="آخرین تغییر در 4 ساعت پیش"
+            android:textSize="14sp"
+            android:textColor="@color/gray"
+            android:layout_gravity="right"
+            android:fontFamily="@font/iransanslight"/>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ll_container"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/ll_container"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="35dp"
+        android:visibility="gone"
+        />
+
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:src="@drawable/close"
+        android:layout_alignParentLeft="true"/>
+
+
+</RelativeLayout>
